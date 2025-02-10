@@ -8,3 +8,6 @@ Question 2.1
 Pour obtenir une nouvelle paire de clés RSA protégée avec l'algorithme DES3
 openssl genrsa -des3 -out protected.key 4096
 Avec pour mot de passe "123456"
+Question 2.2
+openssl rsa -in protected.key -pubout -out protected.pub
+Il n'y a pas de différence car c'est seulement la clé privé qui est protégée.
