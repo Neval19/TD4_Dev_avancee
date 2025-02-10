@@ -20,3 +20,6 @@ openssl dgst -sha1 exemple.txt
 SHA1(exemple.txt)= 8617f6ad0c75bcae63c09cc88018f3d2f80ea3ca
 
 La taille de MD5 est de 128 bits et SHA-1 de 160 bits.
+
+Kevin Jiang 302
+
