@@ -11,3 +11,12 @@ Avec pour mot de passe "123456"
 Question 2.2
 openssl rsa -in protected.key -pubout -out protected.pub
 Il n'y a pas de différence car c'est seulement la clé privé qui est protégée.
+Question 3.1 
+openssl dgst -sha256 exemple.txt
+SHA2-256(exemple.txt)= dfd6d03c745a8db93ae7b723b425d15b538851fd94289e7214c0efbf2e55bc51
+openssl dgst -md5 exemple.txt
+MD5(exemple.txt)= aee6fa45a4432fe6fb3f934bc9286eec
+openssl dgst -sha1 exemple.txt
+SHA1(exemple.txt)= 8617f6ad0c75bcae63c09cc88018f3d2f80ea3ca
+
+La taille de MD5 est de 128 bits et SHA-1 de 160 bits.
